@@ -2,20 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WatchVegas2 Help</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             background: #f0f4f8;
             color: #1a1a2e;
             line-height: 1.6;
@@ -28,28 +22,28 @@
             border-bottom: 4px solid #e94560;
         }
 
-            .header h1 {
-                font-size: 28px;
-                font-weight: 700;
-                letter-spacing: 1px;
-            }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
 
-            .header .subtitle {
-                color: #a8b2d8;
-                font-size: 13px;
-                margin-top: 4px;
-            }
+        .header .subtitle {
+            color: #a8b2d8;
+            font-size: 13px;
+            margin-top: 4px;
+        }
 
-            .header .version {
-                display: inline-block;
-                background: #e94560;
-                color: white;
-                padding: 2px 10px;
-                border-radius: 12px;
-                font-size: 12px;
-                font-weight: 600;
-                margin-top: 8px;
-            }
+        .header .version {
+            display: inline-block;
+            background: #e94560;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
 
         .container {
             display: flex;
@@ -68,30 +62,30 @@
             flex-shrink: 0;
         }
 
-            .sidebar h3 {
-                font-size: 10px;
-                text-transform: uppercase;
-                letter-spacing: 2px;
-                color: #e94560;
-                padding: 16px 20px 6px;
-                font-weight: 700;
-            }
+        .sidebar h3 {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #e94560;
+            padding: 16px 20px 6px;
+            font-weight: 700;
+        }
 
-            .sidebar a {
-                display: block;
-                padding: 7px 20px;
-                color: #a8b2d8;
-                text-decoration: none;
-                font-size: 13px;
-                border-left: 3px solid transparent;
-                transition: all 0.2s;
-            }
+        .sidebar a {
+            display: block;
+            padding: 7px 20px;
+            color: #a8b2d8;
+            text-decoration: none;
+            font-size: 13px;
+            border-left: 3px solid transparent;
+            transition: all 0.2s;
+        }
 
-                .sidebar a:hover {
-                    color: white;
-                    border-left-color: #e94560;
-                    background: rgba(233, 69, 96, 0.1);
-                }
+        .sidebar a:hover {
+            color: white;
+            border-left-color: #e94560;
+            background: rgba(233, 69, 96, 0.1);
+        }
 
         .content {
             flex: 1;
@@ -108,13 +102,13 @@
             border-left: 4px solid #0f3460;
         }
 
-            .section.warning {
-                border-left-color: #e94560;
-            }
+        .section.warning {
+            border-left-color: #e94560;
+        }
 
-            .section.tip {
-                border-left-color: #2ecc71;
-            }
+        .section.tip {
+            border-left-color: #2ecc71;
+        }
 
         h2 {
             font-size: 18px;
@@ -132,19 +126,14 @@
             font-weight: 600;
         }
 
-        p {
-            margin-bottom: 10px;
-            color: #333;
-        }
+        p { margin-bottom: 10px; color: #333; }
 
         ul, ol {
             margin: 8px 0 12px 20px;
             color: #333;
         }
 
-        li {
-            margin-bottom: 5px;
-        }
+        li { margin-bottom: 5px; }
 
         .badge {
             display: inline-block;
@@ -155,30 +144,11 @@
             margin-right: 4px;
         }
 
-        .badge-red {
-            background: #fde8ec;
-            color: #c0392b;
-        }
-
-        .badge-orange {
-            background: #fef3e2;
-            color: #d35400;
-        }
-
-        .badge-green {
-            background: #e8f8f0;
-            color: #1e8449;
-        }
-
-        .badge-blue {
-            background: #e8f0fe;
-            color: #1a5276;
-        }
-
-        .badge-grey {
-            background: #f0f0f0;
-            color: #555;
-        }
+        .badge-red { background: #fde8ec; color: #c0392b; }
+        .badge-orange { background: #fef3e2; color: #d35400; }
+        .badge-green { background: #e8f8f0; color: #1e8449; }
+        .badge-blue { background: #e8f0fe; color: #1a5276; }
+        .badge-grey { background: #f0f0f0; color: #555; }
 
         .status-bar-demo {
             background: #1a1a2e;
@@ -211,9 +181,7 @@
             vertical-align: top;
         }
 
-        tr:nth-child(even) td {
-            background: #f8fafc;
-        }
+        tr:nth-child(even) td { background: #f8fafc; }
 
         .callout {
             background: #fef9e7;
@@ -224,15 +192,15 @@
             font-size: 13px;
         }
 
-            .callout.danger {
-                background: #fde8ec;
-                border-color: #e94560;
-            }
+        .callout.danger {
+            background: #fde8ec;
+            border-color: #e94560;
+        }
 
-            .callout.info {
-                background: #e8f4fd;
-                border-color: #3498db;
-            }
+        .callout.info {
+            background: #e8f4fd;
+            border-color: #3498db;
+        }
 
         code {
             background: #f0f4f8;
@@ -256,433 +224,461 @@
 </head>
 <body>
 
-    <div class="header">
-        <h1>WatchVegas2 Help</h1>
-        <div class="subtitle">Real-time stability monitoring for VEGAS Pro editors</div>
-        <div class="version">Version 2.5</div>
+<div class="header">
+    <h1>WatchVegas2 Help</h1>
+    <div class="subtitle">Real-time stability monitoring for VEGAS Pro editors</div>
+    <div class="version">Version 2.5</div>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <h3>Getting Started</h3>
+        <a href="#overview">Overview</a>
+        <a href="#requirements">Requirements</a>
+        <a href="#startup">Starting the App</a>
+
+        <h3>Main Interface</h3>
+        <a href="#statusbar">Status Bar</a>
+        <a href="#rtblog">Module Log</a>
+        <a href="#charts">Performance Charts</a>
+        <a href="#systemload">System Load Panel</a>
+        <a href="#buttons">Toolbar Buttons</a>
+
+        <h3>Monitoring</h3>
+        <a href="#crash">Crash Detection</a>
+        <a href="#gpu-contention">GPU Contention</a>
+        <a href="#hang">Hang Detection</a>
+        <a href="#tdr">GPU Driver Crashes</a>
+        <a href="#plugins">Plugin Monitoring</a>
+        <a href="#interference">Interference Monitor</a>
+        <a href="#codec">Codec Detection</a>
+
+        <h3>Warnings & Alerts</h3>
+        <a href="#cpu-warning">CPU Temperature</a>
+        <a href="#gpu-warning">GPU Usage</a>
+        <a href="#vram-warning">VRAM Usage</a>
+        <a href="#ram-warning">RAM Pressure</a>
+        <a href="#tray">Tray Icon</a>
+        <a href="#session">Session Warnings</a>
+
+        <h3>Settings</h3>
+        <a href="#settings">Settings Form</a>
+        <a href="#advanced">Advanced Settings</a>
+
+        <h3>Tools & Logs</h3>
+        <a href="#logs">Log Files</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#crashhistory">Crash History</a>
+        <a href="#windows-update">Windows Update</a>
     </div>
 
-    <div class="container">
-        <div class="sidebar">
-            <h3>Getting Started</h3>
-            <a href="#overview">Overview</a>
-            <a href="#requirements">Requirements</a>
-            <a href="#startup">Starting the App</a>
+    <div class="content">
 
-            <h3>Main Interface</h3>
-            <a href="#statusbar">Status Bar</a>
-            <a href="#rtblog">Module Log</a>
-            <a href="#charts">Performance Charts</a>
-            <a href="#systemload">System Load Panel</a>
-            <a href="#buttons">Toolbar Buttons</a>
+        <!-- OVERVIEW -->
+        <div class="section" id="overview">
+            <h2>What is WatchVegas2?</h2>
+            <p>WatchVegas2 is a real-time stability monitoring tool designed specifically for VEGAS Pro video editors. It runs alongside VEGAS and watches for the conditions that most commonly cause crashes, freezes, and driver failures — giving you diagnostic information both during a session and after something goes wrong.</p>
+            <p>Rather than just telling you "VEGAS crashed," WatchVegas2 tells you <strong>why</strong> — which plugin DLL faulted, what the system load was in the seconds beforehand, whether a GPU driver reset occurred, and whether the system was running low on VRAM or RAM.</p>
 
-            <h3>Monitoring</h3>
-            <a href="#crash">Crash Detection</a>
-            <a href="#hang">Hang Detection</a>
-            <a href="#tdr">GPU Driver Crashes</a>
-            <a href="#plugins">Plugin Monitoring</a>
-            <a href="#interference">Interference Monitor</a>
-            <a href="#codec">Codec Detection</a>
-
-            <h3>Warnings & Alerts</h3>
-            <a href="#cpu-warning">CPU Temperature</a>
-            <a href="#gpu-warning">GPU Usage</a>
-            <a href="#vram-warning">VRAM Usage</a>
-            <a href="#ram-warning">RAM Pressure</a>
-            <a href="#tray">Tray Icon</a>
-            <a href="#session">Session Warnings</a>
-
-            <h3>Settings</h3>
-            <a href="#settings">Settings Form</a>
-            <a href="#advanced">Advanced Settings</a>
-
-            <h3>Tools & Logs</h3>
-            <a href="#logs">Log Files</a>
-            <a href="#screenshots">Screenshots</a>
-            <a href="#crashhistory">Crash History</a>
-            <a href="#windows-update">Windows Update</a>
+            <h3>What it monitors</h3>
+            <ul>
+                <li>VEGAS process state — running, not responding, or closed</li>
+                <li>CPU temperature and load</li>
+                <li>GPU temperature and load</li>
+                <li>VRAM usage</li>
+                <li>Available system RAM</li>
+                <li>Disk activity</li>
+                <li>Loaded plugins and DLL modules</li>
+                <li>GPU driver crashes (TDR events)</li>
+                <li>Interference applications (Discord, OBS, etc.)</li>
+                <li>New codec DLLs loaded mid-session</li>
+                <li>Vegas CPU process priority</li>
+            </ul>
         </div>
 
-        <div class="content">
-
-            <!-- OVERVIEW -->
-            <div class="section" id="overview">
-                <h2>What is WatchVegas2?</h2>
-                <p>WatchVegas2 is a real-time stability monitoring tool designed specifically for VEGAS Pro video editors. It runs alongside VEGAS and watches for the conditions that most commonly cause crashes, freezes, and driver failures — giving you diagnostic information both during a session and after something goes wrong.</p>
-                <p>Rather than just telling you "VEGAS crashed," WatchVegas2 tells you <strong>why</strong> — which plugin DLL faulted, what the system load was in the seconds beforehand, whether a GPU driver reset occurred, and whether the system was running low on VRAM or RAM.</p>
-
-                <h3>What it monitors</h3>
-                <ul>
-                    <li>VEGAS process state — running, not responding, or closed</li>
-                    <li>CPU temperature and load</li>
-                    <li>GPU temperature and load</li>
-                    <li>VRAM usage</li>
-                    <li>Available system RAM</li>
-                    <li>Disk activity</li>
-                    <li>Loaded plugins and DLL modules</li>
-                    <li>GPU driver crashes (TDR events)</li>
-                    <li>Interference applications (Discord, OBS, etc.)</li>
-                    <li>New codec DLLs loaded mid-session</li>
-                    <li>Vegas CPU process priority</li>
-                </ul>
+        <!-- REQUIREMENTS -->
+        <div class="section" id="requirements">
+            <h2>Requirements</h2>
+            <ul>
+                <li>Windows 10 or Windows 11</li>
+                <li>VEGAS Pro 2026 (<code>vegas2026.exe</code>)</li>
+                <li>.NET 8.0 Runtime (Windows)</li>
+                <li><strong>Administrator rights</strong> — required for hardware sensor access and Windows Update control</li>
+            </ul>
+            <div class="callout danger">
+                WatchVegas2 must be run as Administrator. Without admin rights, hardware sensors (CPU temperature, GPU data) will not be accessible and crash detection from the Windows Event Log will not work.
             </div>
-
-            <!-- REQUIREMENTS -->
-            <div class="section" id="requirements">
-                <h2>Requirements</h2>
-                <ul>
-                    <li>Windows 10 or Windows 11</li>
-                    <li>VEGAS Pro 2026 (<code>vegas2026.exe</code>)</li>
-                    <li>.NET 8.0 Runtime (Windows)</li>
-                    <li><strong>Administrator rights</strong> — required for hardware sensor access and Windows Update control</li>
-                </ul>
-                <div class="callout danger">
-                    WatchVegas2 must be run as Administrator. Without admin rights, hardware sensors (CPU temperature, GPU data) will not be accessible and crash detection from the Windows Event Log will not work.
-                </div>
-            </div>
-
-            <!-- STARTUP -->
-            <div class="section" id="startup">
-                <h2>Starting the App</h2>
-                <p>Launch WatchVegas2 before or after opening VEGAS — it will detect VEGAS automatically. On startup it will:</p>
-                <ul>
-                    <li>Initialize hardware sensors (takes a few seconds — charts will appear shortly after launch)</li>
-                    <li>Begin monitoring for VEGAS to start or stop</li>
-                    <li>Show a green dot in the system tray confirming it is active</li>
-                    <li>Log a startup entry to today's log file</li>
-                </ul>
-                <div class="callout info">
-                    If VEGAS is already running when WatchVegas2 starts, it will detect it immediately and begin scanning loaded modules.
-                </div>
-            </div>
-
-            <!-- STATUS BAR -->
-            <div class="section" id="statusbar">
-                <h2>Status Bar</h2>
-                <p>The status bar at the bottom of the window shows live readings updated every second:</p>
-                <div class="status-bar-demo">VRAM: 44% &nbsp;|&nbsp; RAM Free: 17.9GB &nbsp;|&nbsp; GPU: 52°C &nbsp;&nbsp; CPU: 47°C (Baseline 44.3°C) &nbsp;&nbsp; Watched Plugins: 2</div>
-                <table>
-                    <tr><th>Item</th><th>What it means</th></tr>
-                    <tr><td>VRAM %</td><td>GPU video memory currently in use. High VRAM is a leading cause of GPU-related crashes in video editing.</td></tr>
-                    <tr><td>RAM Free</td><td>Available system RAM in GB. Below 4GB is a caution; below 2GB is critical.</td></tr>
-                    <tr><td>GPU °C</td><td>Current GPU core temperature.</td></tr>
-                    <tr><td>CPU °C</td><td>Current CPU temperature. In Adaptive mode, also shows the rolling baseline.</td></tr>
-                    <tr><td>Watched Plugins</td><td>How many of your watched plugin DLLs are currently loaded in Vegas.</td></tr>
-                </table>
-                <p>The status bar background changes color when a warning threshold is crossed:</p>
-                <ul>
-                    <li><span class="color-swatch" style="background:#e74c3c"></span><strong>Red</strong> — CPU temperature warning</li>
-                    <li><span class="color-swatch" style="background:#8b0000"></span><strong>Dark Red</strong> — VRAM threshold exceeded</li>
-                    <li><span class="color-swatch" style="background:#6c3483"></span><strong>Purple</strong> — GPU usage threshold exceeded</li>
-                </ul>
-                <p>Text turns white automatically when the background darkens, returning to black when the warning clears.</p>
-            </div>
-
-            <!-- MODULE LOG -->
-            <div class="section" id="rtblog">
-                <h2>Module Log (Main Panel)</h2>
-                <p>The large panel on the left shows a live log of everything WatchVegas2 detects. Entries are color-coded:</p>
-                <table>
-                    <tr><th>Color</th><th>Entry type</th></tr>
-                    <tr><td><span style="color:#003c00;font-weight:bold">Dark Green Bold</span></td><td>BorisFX / BCC plugin loaded</td></tr>
-                    <tr><td><span style="color:#964b00;font-weight:bold">Dark Orange Bold</span></td><td>NewBlue / Titler plugin loaded</td></tr>
-                    <tr><td><span style="color:#e94560;font-weight:bold">Red Bold</span></td><td>Warning or interference app detected</td></tr>
-                    <tr><td><span style="color:#3c3c3c">Dark Grey</span></td><td>System DLL loaded</td></tr>
-                    <tr><td><span style="color:#0000cc">Blue</span></td><td>Background application (from Monitor scan)</td></tr>
-                </table>
-                <h3>Search / Filter</h3>
-                <p>Use the <strong>Search DLL/Modules</strong> box to filter the log to matching entries. Click <strong>Clear Search</strong> to reset.</p>
-                <p>Click <strong>Show FX Ctls</strong> to toggle between showing all modules and showing only plugin entries.</p>
-            </div>
-
-            <!-- CHARTS -->
-            <div class="section" id="charts">
-                <h2>Performance Charts</h2>
-                <p>Four real-time scrolling line charts show the last 30 seconds of activity:</p>
-                <table>
-                    <tr><th>Chart</th><th>Color</th><th>Measures</th></tr>
-                    <tr><td>CPU Usage</td><td><span style="color:blue">Blue</span></td><td>CPU load %</td></tr>
-                    <tr><td>GPU Usage</td><td><span style="color:red">Red</span></td><td>GPU core load %</td></tr>
-                    <tr><td>RAM Usage</td><td><span style="color:green">Green</span></td><td>RAM usage %</td></tr>
-                    <tr><td>Disk Usage</td><td><span style="color:orange">Orange</span></td><td>Disk activity %</td></tr>
-                </table>
-                <p>Chart backgrounds tint subtly when values approach warning thresholds — configurable in Settings. The Y-axis scales automatically to fit the data.</p>
-            </div>
-
-            <!-- SYSTEM LOAD -->
-            <div class="section" id="systemload">
-                <h2>System Load Panel</h2>
-                <p>The panel at the bottom centre shows a blended system load score combining CPU (30%), RAM (40%), and GPU (30%). It changes color as load increases:</p>
-                <table>
-                    <tr><th>Color</th><th>Level</th><th>Score</th></tr>
-                    <tr><td><span class="color-swatch" style="background:#9bb8d3"></span>Blue (ActiveCaption)</td><td>Normal</td><td>Below 40%</td></tr>
-                    <tr><td><span class="color-swatch" style="background:#228b22"></span>Green</td><td>Moderate</td><td>40–69%</td></tr>
-                    <tr><td><span class="color-swatch" style="background:#ff8c00"></span>Orange</td><td>Heavy</td><td>70–84%</td></tr>
-                    <tr><td><span class="color-swatch" style="background:#e94560"></span>Red</td><td>Critical</td><td>85%+</td></tr>
-                </table>
-            </div>
-
-            <!-- TOOLBAR BUTTONS -->
-            <div class="section" id="buttons">
-                <h2>Toolbar Buttons</h2>
-                <table>
-                    <tr><th>Button</th><th>What it does</th></tr>
-                    <tr><td>Save Data</td><td>Opens today's log file in Notepad</td></tr>
-                    <tr><td>Show FX Ctls</td><td>Toggles between all modules and plugins only in the log</td></tr>
-                    <tr><td>Conflict Filter</td><td>Toggles interference app monitoring on/off. Navy text = ON, Red text = OFF</td></tr>
-                    <tr><td>Monitor</td><td>Scans and lists all currently running background applications</td></tr>
-                    <tr><td>Capture Screen</td><td>Opens the screenshot capture tool</td></tr>
-                    <tr><td>BorisFX Log</td><td>Opens the BorisFX Mocha log file if present</td></tr>
-                    <tr><td>Refresh Data</td><td>Clears the log and rescans all Vegas modules</td></tr>
-                    <tr><td>Copy Data to Clipboard</td><td>Copies the entire module log to clipboard</td></tr>
-                    <tr><td>Exit</td><td>Closes WatchVegas2</td></tr>
-                </table>
-            </div>
-
-            <!-- CRASH DETECTION -->
-            <div class="section warning" id="crash">
-                <h2>Crash Detection</h2>
-                <p>When VEGAS disappears from the process list, WatchVegas2 does <strong>not</strong> immediately assume a crash. It waits 3 seconds for Windows Error Reporting to write its event log, then checks the Windows Application Event Log for a genuine fault (Event ID 1000).</p>
-
-                <h3>Three possible outcomes</h3>
-                <table>
-                    <tr><th>Outcome</th><th>What you see</th></tr>
-                    <tr><td>Confirmed crash</td><td>Red log entry: "CRASH CONFIRMED — Culprit module: X.dll". Tray icon turns red with balloon notification. Crash snapshot saved.</td></tr>
-                    <tr><td>Force-closed after hang</td><td>Log entry noting Vegas was unresponsive for Xs before closing. No formal crash event was logged.</td></tr>
-                    <tr><td>Normal close</td><td>Quiet log entry: "vegas2026 closed normally." No alert, no snapshot.</td></tr>
-                </table>
-
-                <h3>Culprit module identification</h3>
-                <p>On a confirmed crash, WatchVegas2 extracts the <strong>faulting module name</strong> directly from the Windows event — this is often the specific plugin DLL, codec, or system library that caused the fault, not just "vegas2026.exe crashed."</p>
-
-                <h3>Crash snapshot</h3>
-                <p>A crash snapshot is saved to <code>Logs\LastCrashSnapshot.txt</code> containing CPU, GPU, VRAM, RAM, temperature, the culprit module, and whether Vegas was unresponsive before the crash. View it via <strong>Tools → Crash Analysis</strong>.</p>
-            </div>
-
-            <!-- HANG DETECTION -->
-            <div class="section warning" id="hang">
-                <h2>Hang / Freeze Detection</h2>
-                <p>WatchVegas2 checks whether the Vegas process is responding every 5 seconds. If it stops responding:</p>
-                <ul>
-                    <li>An immediate warning appears in the log</li>
-                    <li>A Session Warning is recorded</li>
-                    <li>If the hang continues, a "still not responding — Xs and counting" message appears every 30 seconds</li>
-                    <li>If Vegas recovers, a "became responsive again after Xs" message closes the loop</li>
-                    <li>If Vegas disappears while hung, it is logged as "likely force-closed due to a hang" — a distinct category from both crashes and normal closes</li>
-                </ul>
-            </div>
-
-            <!-- GPU DRIVER CRASHES -->
-            <div class="section warning" id="tdr">
-                <h2>GPU Driver Crashes (TDR Events)</h2>
-                <p>A TDR (Timeout Detection and Recovery) event is what Windows calls a "Display driver stopped responding and has recovered" — the classic cause of a momentary black screen or freeze during GPU-heavy work. WatchVegas2 monitors the Windows System Event Log for Event ID 4101 every 10 seconds.</p>
-                <p>When detected:</p>
-                <ul>
-                    <li>A red bold warning appears in the module log</li>
-                    <li>A Critical entry is added to Session Warnings</li>
-                    <li>The tray icon turns red with a balloon notification</li>
-                    <li>The event is written to the daily log file</li>
-                </ul>
-                <div class="callout">
-                    TDR events often precede Vegas crashes by a few seconds. Correlating a TDR entry with the preceding VRAM and GPU load readings can explain why the driver reset occurred.
-                </div>
-            </div>
-
-            <!-- PLUGIN MONITORING -->
-            <div class="section" id="plugins">
-                <h2>Plugin & Module Monitoring</h2>
-                <p>When VEGAS starts, WatchVegas2 scans all loaded modules and logs them in real time as they appear. Known plugin vendors are highlighted in color.</p>
-
-                <h3>Watched Plugins</h3>
-                <p>In <strong>Advanced Settings</strong>, you can build a personal watch list of plugin names to monitor. Any watched plugin that loads in Vegas is highlighted in red/bold and counted in the status bar. Configure watched plugins via <strong>Settings → Advanced Settings → Open</strong>.</p>
-
-                <h3>Watch list operation</h3>
-                <ul>
-                    <li>The left panel shows all currently loaded Vegas modules</li>
-                    <li>Click any module to add it to your watch list on the right</li>
-                    <li>Use the search box to filter the module list</li>
-                    <li>Click <strong>Save/Close</strong> to persist your watch list</li>
-                </ul>
-            </div>
-
-            <!-- INTERFERENCE MONITOR -->
-            <div class="section" id="interference">
-                <h2>Interference Monitor</h2>
-                <p>Certain applications are known to interfere with GPU-heavy creative tools by injecting overlay DLLs or competing for GPU resources. WatchVegas2 watches for these while Vegas is running:</p>
-                <ul>
-                    <li>Discord</li>
-                    <li>OBS Studio (obs64)</li>
-                    <li>RivaTuner Statistics Server (RTSS)</li>
-                    <li>Steam</li>
-                    <li>Xbox Game Bar</li>
-                    <li>Overwolf</li>
-                </ul>
-                <p>When one appears, a red warning is logged immediately. When it closes, a "conflicts cleared" message confirms it. Toggle this feature with the <strong>Conflict Filter</strong> button — Navy text means ON, Red text means OFF.</p>
-            </div>
-
-            <!-- CODEC DETECTION -->
-            <div class="section" id="codec">
-                <h2>Codec Detection</h2>
-                <p>When a new codec or plugin DLL loads into Vegas <em>after</em> the initial startup scan — typically triggered by opening a media file — WatchVegas2 flags it in Session Warnings. This creates a "what loaded just before the crash" trail that is often the most useful diagnostic when a specific media file causes instability.</p>
-                <p>Flagged DLL patterns include: <code>CODEC</code>, <code>DECODER</code>, <code>ENCODER</code>, <code>MFT</code>, <code>LAV</code>, <code>PRORES</code>, <code>HEVC</code>, <code>H264</code>, <code>H265</code>, <code>OFX</code>.</p>
-            </div>
-
-            <!-- CPU WARNING -->
-            <div class="section" id="cpu-warning">
-                <h2>CPU Temperature Warning</h2>
-                <p>WatchVegas2 offers two CPU temperature warning modes, configurable in Settings:</p>
-
-                <h3>Static threshold</h3>
-                <p>Fires when the CPU temperature exceeds a fixed value you set (default 85°C). The status bar turns red and a warning appears in the log.</p>
-
-                <h3>Adaptive warning (recommended)</h3>
-                <p>Builds a rolling 30-sample baseline of your CPU's normal temperature under current conditions. Fires only when the temperature exceeds that baseline by 15°C — meaning it adapts to whether you're doing a light edit or a heavy render, rather than using one fixed number for all situations. Enable via <strong>Settings → Use Adaptive CPU Warning</strong>.</p>
-                <div class="callout">
-                    During the first 30 seconds after launch, the adaptive mode falls back to the static threshold while it builds its baseline.
-                </div>
-            </div>
-
-            <!-- GPU WARNING -->
-            <div class="section" id="gpu-warning">
-                <h2>GPU Usage Warning</h2>
-                <p>Fires when GPU load exceeds your configured threshold (default 75%). Configure in <strong>Settings → GPU Warning Threshold %</strong>. The status bar turns purple and a warning is logged.</p>
-            </div>
-
-            <!-- VRAM WARNING -->
-            <div class="section" id="vram-warning">
-                <h2>VRAM Usage Warning</h2>
-                <p>VRAM exhaustion is one of the most common causes of GPU-related crashes in video editing. WatchVegas2 monitors VRAM % and warns when it exceeds your threshold (default 90%). Configure in <strong>Settings → VRAM Warning Threshold %</strong>.</p>
-                <p>When triggered: status bar turns dark red, a warning appears in the log, a Session Warning is recorded, and an auto screenshot is taken if enabled.</p>
-            </div>
-
-            <!-- RAM WARNING -->
-            <div class="section" id="ram-warning">
-                <h2>RAM Pressure Warning</h2>
-                <p>Available system RAM is shown in the status bar in GB (more actionable than a percentage). Automatic warnings fire at:</p>
-                <ul>
-                    <li><strong>Below 4GB free</strong> — Caution (logged to Session Warnings)</li>
-                    <li><strong>Below 2GB free</strong> — Critical (logged to Session Warnings)</li>
-                </ul>
-                <p>Heavy Vegas projects with many tracks, effects, and cached previews are the most common cause of RAM exhaustion.</p>
-            </div>
-
-            <!-- TRAY ICON -->
-            <div class="section" id="tray">
-                <h2>System Tray Icon</h2>
-                <p>WatchVegas2 places a small dot in the system tray while running:</p>
-                <ul>
-                    <li><span class="color-swatch" style="background:#32cd32"></span><strong>Green</strong> — Watching normally, no events</li>
-                    <li><span class="color-swatch" style="background:#e94560"></span><strong>Red</strong> — A crash, hang-close, or TDR event was just detected</li>
-                </ul>
-                <p>Hover over the tray icon to see a live tooltip showing current CPU temperature, GPU load, and VRAM usage. The icon reverts to green automatically after 10 seconds.</p>
-                <p>A balloon notification pops from the tray on confirmed crashes, hang-closes, and GPU driver resets — so you're alerted even if the WatchVegas2 window is minimized.</p>
-            </div>
-
-            <!-- SESSION WARNINGS -->
-            <div class="section" id="session">
-                <h2>Session Warnings</h2>
-                <p>Access via <strong>Tools → Session Warnings</strong>. This shows a color-coded list of every warning-level event that occurred during the current session — not routine module loads, just the things that actually matter.</p>
-                <table>
-                    <tr><th>Color</th><th>Severity</th><th>Examples</th></tr>
-                    <tr><td><span style="color:#555">Grey</span></td><td>Info</td><td>Vegas recovered from a hang</td></tr>
-                    <tr><td><span style="color:#b8860b">Golden Yellow</span></td><td>Caution</td><td>CPU/GPU/VRAM threshold crossed, interference app detected</td></tr>
-                    <tr><td><span style="color:#e67e22">Orange</span></td><td>Severe</td><td>Vegas became unresponsive (hang in progress)</td></tr>
-                    <tr><td><span style="color:#e94560">Red</span></td><td>Critical</td><td>Confirmed crash, force-close after hang, GPU TDR event</td></tr>
-                </table>
-                <p>Click <strong>Copy to Clipboard</strong> to copy the full list — useful for pasting into a forum post or support email to a plugin vendor.</p>
-                <div class="callout">
-                    Session Warnings are not saved automatically. Copy to clipboard before closing WatchVegas2 if you want to keep a record of a session.
-                </div>
-            </div>
-
-            <!-- SETTINGS -->
-            <div class="section" id="settings">
-                <h2>Settings</h2>
-                <p>Open via <strong>File → Settings</strong>. Click <strong>Apply to All</strong> to save changes.</p>
-                <table>
-                    <tr><th>Setting</th><th>Description</th></tr>
-                    <tr><td>Data Refresh Rate</td><td>How often (in seconds) the hardware sensors update. Default: 1 second.</td></tr>
-                    <tr><td>Enable Thermal Throttling Warning</td><td>Enables the static CPU temperature alert.</td></tr>
-                    <tr><td>Always on Top</td><td>Keeps WatchVegas2 above other windows.</td></tr>
-                    <tr><td>Auto Screenshot</td><td>Automatically captures a screenshot when a warning fires.</td></tr>
-                    <tr><td>WatchVegas visible in Auto Screenshot</td><td>When unticked, WatchVegas2 hides itself during auto captures so it doesn't appear in the image.</td></tr>
-                    <tr><td>Use Adaptive CPU Warning</td><td>Enables rolling baseline temperature monitoring instead of a fixed threshold. Greys out the static threshold setting.</td></tr>
-                    <tr><td>GPU Warning Threshold %</td><td>GPU load % at which the chart border and status bar warn.</td></tr>
-                    <tr><td>CPU Warning Threshold %</td><td>CPU load % at which the chart border tints.</td></tr>
-                    <tr><td>VRAM Warning Threshold %</td><td>VRAM % at which the status bar turns dark red and a warning fires.</td></tr>
-                    <tr><td>Form Opacity</td><td>Controls the transparency of the WatchVegas2 window.</td></tr>
-                    <tr><td>Set CPU Temperature Warning</td><td>Fixed threshold in °C for the static temperature alert.</td></tr>
-                    <tr><td>Maximum Number of Images in Folder</td><td>Screenshot folder limit before older images are purged.</td></tr>
-                </table>
-            </div>
-
-            <!-- ADVANCED SETTINGS -->
-            <div class="section" id="advanced">
-                <h2>Advanced Settings</h2>
-                <p>Open via <strong>Settings → Advanced Settings → Open</strong>.</p>
-                <table>
-                    <tr><th>Setting</th><th>Description</th></tr>
-                    <tr><td>Enable CPU Warning</td><td>Master switch for CPU temperature alerting.</td></tr>
-                    <tr><td>Enable GPU Warning</td><td>Master switch for GPU usage alerting.</td></tr>
-                    <tr><td>Log Plugins</td><td>Writes watched plugin load events to the log file.</td></tr>
-                    <tr><td>Highlight Plugins</td><td>Color-highlights known plugin vendors in the module log.</td></tr>
-                    <tr><td>Trigger Screenshot</td><td>Automatically takes a screenshot when a watched plugin loads.</td></tr>
-                    <tr><td>Enable Auto Screenshot</td><td>Master switch for automatic screenshot capture.</td></tr>
-                </table>
-
-                <h3>Plugin Watch List</h3>
-                <p>The left panel shows all DLLs currently loaded in Vegas. Click any entry to add it to your personal watch list on the right. Watched plugins are highlighted in the main log and counted in the status bar. Click <strong>Save/Close</strong> to save your list.</p>
-            </div>
-
-            <!-- LOG FILES -->
-            <div class="section" id="logs">
-                <h2>Log Files</h2>
-                <p>All logs are saved in the <code>Logs</code> folder inside the WatchVegas2 installation directory. Open via <strong>Edit → Open Log Folder</strong>.</p>
-                <table>
-                    <tr><th>File</th><th>Contents</th></tr>
-                    <tr><td><code>Wvegaslog_YYYYMMDD.txt</code></td><td>Daily combined log — all events, warnings, module loads, heartbeats</td></tr>
-                    <tr><td><code>LastCrashSnapshot.txt</code></td><td>Hardware state at the time of the most recent confirmed crash</td></tr>
-                    <tr><td><code>CrashHistory.txt</code></td><td>Permanent running record of every confirmed crash across all sessions</td></tr>
-                </table>
-                <p>View crash history via <strong>Tools → Crash History</strong>. View the last crash snapshot via <strong>Tools → Crash Analysis</strong>.</p>
-            </div>
-
-            <!-- SCREENSHOTS -->
-            <div class="section" id="screenshots">
-                <h2>Screenshots</h2>
-                <p>Auto screenshots are saved to the <code>Screenshots</code> folder inside the WatchVegas2 installation directory. Open via <strong>Edit → Open Screenshot Folder</strong>.</p>
-                <p>Screenshots are triggered automatically when:</p>
-                <ul>
-                    <li>VRAM exceeds the warning threshold</li>
-                    <li>CPU temperature exceeds its threshold</li>
-                    <li>A watched plugin loads (if enabled in Advanced Settings)</li>
-                    <li>Vegas crashes (captures the "stopped working" dialog if still visible)</li>
-                </ul>
-                <p>You can also capture manually via the <strong>Capture Screen</strong> button.</p>
-            </div>
-
-            <!-- CRASH HISTORY -->
-            <div class="section" id="crashhistory">
-                <h2>Crash History</h2>
-                <p>Every confirmed Vegas crash is appended to <code>Logs\CrashHistory.txt</code> — it is never overwritten. Each entry includes the crash time, culprit module, hardware state, and whether Vegas was unresponsive before the crash.</p>
-                <p>Over time this builds a permanent diagnostic record. Patterns like "always crashes with the same DLL" or "always crashes after 2+ hours" become visible across multiple sessions.</p>
-                <p>View via <strong>Tools → Crash History</strong>.</p>
-            </div>
-
-            <!-- WINDOWS UPDATE -->
-            <div class="section" id="windows-update">
-                <h2>Windows Update Pause</h2>
-                <p>WatchVegas2 automatically pauses the Windows Update service (<code>wuauserv</code>) when Vegas is detected running, and resumes it when Vegas closes. This prevents Windows Update activity from competing for system resources or triggering a driver update mid-session.</p>
-                <div class="callout">
-                    This requires WatchVegas2 to be running as Administrator. A log entry confirms when Windows Update is paused and resumed.
-                </div>
-                <div class="callout danger">
-                    Windows Update will resume automatically when Vegas closes. If you close WatchVegas2 before closing Vegas, Windows Update will resume at that point.
-                </div>
-            </div>
-
         </div>
+
+        <!-- STARTUP -->
+        <div class="section" id="startup">
+            <h2>Starting the App</h2>
+            <p>Launch WatchVegas2 before or after opening VEGAS — it will detect VEGAS automatically. On startup it will:</p>
+            <ul>
+                <li>Initialize hardware sensors (takes a few seconds — charts will appear shortly after launch)</li>
+                <li>Begin monitoring for VEGAS to start or stop</li>
+                <li>Show a green dot in the system tray confirming it is active</li>
+                <li>Log a startup entry to today's log file</li>
+            </ul>
+            <div class="callout info">
+                If VEGAS is already running when WatchVegas2 starts, it will detect it immediately and begin scanning loaded modules.
+            </div>
+        </div>
+
+        <!-- STATUS BAR -->
+        <div class="section" id="statusbar">
+            <h2>Status Bar</h2>
+            <p>The status bar at the bottom of the window shows live readings updated every second:</p>
+            <div class="status-bar-demo">VRAM: 44% &nbsp;|&nbsp; RAM Free: 17.9GB &nbsp;|&nbsp; GPU: 52°C &nbsp;&nbsp; CPU: 47°C (Baseline 44.3°C) &nbsp;&nbsp; Watched Plugins: 2</div>
+            <table>
+                <tr><th>Item</th><th>What it means</th></tr>
+                <tr><td>VRAM %</td><td>GPU video memory currently in use. High VRAM is a leading cause of GPU-related crashes in video editing.</td></tr>
+                <tr><td>RAM Free</td><td>Available system RAM in GB. Below 4GB is a caution; below 2GB is critical.</td></tr>
+                <tr><td>GPU °C</td><td>Current GPU core temperature.</td></tr>
+                <tr><td>CPU °C</td><td>Current CPU temperature. In Adaptive mode, also shows the rolling baseline.</td></tr>
+                <tr><td>Watched Plugins</td><td>How many of your watched plugin DLLs are currently loaded in Vegas.</td></tr>
+            </table>
+            <p>The status bar background changes color when a warning threshold is crossed:</p>
+            <ul>
+                <li><span class="color-swatch" style="background:#e74c3c"></span><strong>Red</strong> — CPU temperature warning</li>
+                <li><span class="color-swatch" style="background:#8b0000"></span><strong>Dark Red</strong> — VRAM threshold exceeded</li>
+                <li><span class="color-swatch" style="background:#6c3483"></span><strong>Purple</strong> — GPU usage threshold exceeded</li>
+            </ul>
+            <p>Text turns white automatically when the background darkens, returning to black when the warning clears.</p>
+        </div>
+
+        <!-- MODULE LOG -->
+        <div class="section" id="rtblog">
+            <h2>Module Log (Main Panel)</h2>
+            <p>The large panel on the left shows a live log of everything WatchVegas2 detects. Entries are color-coded:</p>
+            <table>
+                <tr><th>Color</th><th>Entry type</th></tr>
+                <tr><td><span style="color:#003c00;font-weight:bold">Dark Green Bold</span></td><td>BorisFX / BCC plugin loaded</td></tr>
+                <tr><td><span style="color:#964b00;font-weight:bold">Dark Orange Bold</span></td><td>NewBlue / Titler plugin loaded</td></tr>
+                <tr><td><span style="color:#e94560;font-weight:bold">Red Bold</span></td><td>Warning or interference app detected</td></tr>
+                <tr><td><span style="color:#3c3c3c">Dark Grey</span></td><td>System DLL loaded</td></tr>
+                <tr><td><span style="color:#0000cc">Blue</span></td><td>Background application (from Monitor scan)</td></tr>
+            </table>
+            <h3>Search / Filter</h3>
+            <p>Use the <strong>Search DLL/Modules</strong> box to filter the log to matching entries. Click <strong>Clear Search</strong> to reset.</p>
+            <p>Click <strong>Show FX Ctls</strong> to toggle between showing all modules and showing only plugin entries.</p>
+        </div>
+
+        <!-- CHARTS -->
+        <div class="section" id="charts">
+            <h2>Performance Charts</h2>
+            <p>Four real-time scrolling line charts show the last 30 seconds of activity:</p>
+            <table>
+                <tr><th>Chart</th><th>Color</th><th>Measures</th></tr>
+                <tr><td>CPU Usage</td><td><span style="color:blue">Blue</span></td><td>CPU load %</td></tr>
+                <tr><td>GPU Usage</td><td><span style="color:red">Red</span></td><td>GPU core load %</td></tr>
+                <tr><td>RAM Usage</td><td><span style="color:green">Green</span></td><td>RAM usage %</td></tr>
+                <tr><td>Disk Usage</td><td><span style="color:orange">Orange</span></td><td>Disk activity %</td></tr>
+            </table>
+            <p>Chart backgrounds tint subtly when values approach warning thresholds — configurable in Settings. The Y-axis scales automatically to fit the data.</p>
+        </div>
+
+        <!-- SYSTEM LOAD -->
+        <div class="section" id="systemload">
+            <h2>System Load Panel</h2>
+            <p>The panel at the bottom centre shows a blended system load score combining CPU (30%), RAM (40%), and GPU (30%). It changes color as load increases:</p>
+            <table>
+                <tr><th>Color</th><th>Level</th><th>Score</th></tr>
+                <tr><td><span class="color-swatch" style="background:#9bb8d3"></span>Blue (ActiveCaption)</td><td>Normal</td><td>Below 40%</td></tr>
+                <tr><td><span class="color-swatch" style="background:#228b22"></span>Green</td><td>Moderate</td><td>40–69%</td></tr>
+                <tr><td><span class="color-swatch" style="background:#ff8c00"></span>Orange</td><td>Heavy</td><td>70–84%</td></tr>
+                <tr><td><span class="color-swatch" style="background:#e94560"></span>Red</td><td>Critical</td><td>85%+</td></tr>
+            </table>
+        </div>
+
+        <!-- TOOLBAR BUTTONS -->
+        <div class="section" id="buttons">
+            <h2>Toolbar Buttons</h2>
+            <table>
+                <tr><th>Button</th><th>What it does</th></tr>
+                <tr><td>Save Data</td><td>Opens today's log file in Notepad</td></tr>
+                <tr><td>Show FX Ctls</td><td>Toggles between all modules and plugins only in the log</td></tr>
+                <tr><td>Conflict Filter</td><td>Toggles interference app monitoring on/off. Navy text = ON, Red text = OFF</td></tr>
+                <tr><td>Monitor</td><td>Scans and lists all currently running background applications</td></tr>
+                <tr><td>Capture Screen</td><td>Opens the screenshot capture tool</td></tr>
+                <tr><td>BorisFX Log</td><td>Opens the BorisFX Mocha log file if present</td></tr>
+                <tr><td>Refresh Data</td><td>Clears the log and rescans all Vegas modules</td></tr>
+                <tr><td>Copy Data to Clipboard</td><td>Copies the entire module log to clipboard</td></tr>
+                <tr><td>Exit</td><td>Closes WatchVegas2</td></tr>
+            </table>
+        </div>
+
+        <!-- CRASH DETECTION -->
+        <div class="section warning" id="crash">
+            <h2>Crash Detection</h2>
+            <p>When VEGAS disappears from the process list, WatchVegas2 does <strong>not</strong> immediately assume a crash. It waits 3 seconds for Windows Error Reporting to write its event log, then checks the Windows Application Event Log for a genuine fault (Event ID 1000).</p>
+
+            <h3>Three possible outcomes</h3>
+            <table>
+                <tr><th>Outcome</th><th>What you see</th></tr>
+                <tr><td>Confirmed crash</td><td>Red log entry: "CRASH CONFIRMED — Culprit module: X.dll". Tray icon turns red with balloon notification. Crash snapshot saved.</td></tr>
+                <tr><td>Force-closed after hang</td><td>Log entry noting Vegas was unresponsive for Xs before closing. No formal crash event was logged.</td></tr>
+                <tr><td>Normal close</td><td>Quiet log entry: "vegas2026 closed normally." No alert, no snapshot.</td></tr>
+            </table>
+
+            <h3>Culprit module identification</h3>
+            <p>On a confirmed crash, WatchVegas2 extracts the <strong>faulting module name</strong> directly from the Windows event — this is often the specific plugin DLL, codec, or system library that caused the fault, not just "vegas2026.exe crashed."</p>
+
+            <h3>Crash snapshot</h3>
+            <p>A crash snapshot is saved to <code>Logs\LastCrashSnapshot.txt</code> containing CPU, GPU, VRAM, RAM, temperature, the culprit module, and whether Vegas was unresponsive before the crash. View it via <strong>Tools → Crash Analysis</strong>.</p>
+            <div class="callout danger">
+                <strong>Important limitation:</strong> WatchVegas2 can only detect events that Windows itself logs — a confirmed application crash, a GPU driver reset, or a hang. If the entire system freezes (a hard lockup where Windows itself stops responding), WatchVegas2 freezes with it and cannot log anything. A completely silent log with no entries after a certain time, followed by a restart entry, is itself diagnostic — it means the freeze was a hardware-level or kernel-level event, not a Vegas application crash. In this case, check Windows Event Viewer after rebooting (Event Viewer → Windows Logs → System) for critical errors logged at the time of the freeze.
+            </div>
+        </div>
+
+        <!-- GPU CONTENTION -->
+        <div class="section warning" id="gpu-contention">
+            <h2>GPU Resource Contention</h2>
+            <p>A common but often overlooked cause of complete system freezes during video editing is <strong>GPU resource contention</strong> — two or more applications simultaneously competing for GPU resources through different code paths, which can trigger a driver-level conflict even when neither application alone would cause a problem.</p>
+
+            <h3>The most common scenario</h3>
+            <p>VEGAS Pro uses GPU acceleration for effects, transitions, and rendering. If a web browser (Firefox, Edge, Chrome) is open at the same time with hardware acceleration enabled, both are competing for the same GPU — particularly noticeable when a YouTube video or other media is playing in the browser while Vegas is processing GPU-accelerated effects.</p>
+
+            <div class="callout danger">
+                This type of conflict typically causes a <strong>complete system freeze</strong> requiring a hard reboot — not a Vegas application crash. WatchVegas2 cannot log this event because Windows itself freezes. The log going silent is the only indicator.
+            </div>
+
+            <h3>Fix — disable browser GPU acceleration</h3>
+            <p><strong>Firefox:</strong> Menu → Settings → Search "performance" → untick "Use recommended performance settings" → untick "Use hardware acceleration when available"</p>
+            <p><strong>Edge:</strong> Menu → Settings → System and performance → turn off "Use graphics acceleration when available"</p>
+            <p><strong>Chrome:</strong> Menu → Settings → System → turn off "Use graphics acceleration when available"</p>
+
+            <h3>Check Vegas GPU acceleration settings</h3>
+            <p>Also worth checking in VEGAS Pro: <strong>Options → Preferences → Video</strong> — if GPU acceleration is enabled in Vegas and your browser simultaneously, the contention is doubled. Try disabling GPU acceleration in Vegas as a test to confirm whether contention is the cause.</p>
+
+            <div class="callout">
+                If freezes stop after disabling browser hardware acceleration, that confirms GPU contention was the cause. Running Vegas and a browser simultaneously is very common for video editors — having a reference video or tutorial open while editing is normal workflow, but it can cause conflicts on systems with a single GPU.
+            </div>
+        </div>
+
+        <div class="section warning" id="hang">
+            <h2>Hang / Freeze Detection</h2>
+            <p>WatchVegas2 checks whether the Vegas process is responding every 5 seconds. If it stops responding:</p>
+            <ul>
+                <li>An immediate warning appears in the log</li>
+                <li>A Session Warning is recorded</li>
+                <li>If the hang continues, a "still not responding — Xs and counting" message appears every 30 seconds</li>
+                <li>If Vegas recovers, a "became responsive again after Xs" message closes the loop</li>
+                <li>If Vegas disappears while hung, it is logged as "likely force-closed due to a hang" — a distinct category from both crashes and normal closes</li>
+            </ul>
+        </div>
+
+        <!-- GPU DRIVER CRASHES -->
+        <div class="section warning" id="tdr">
+            <h2>GPU Driver Crashes (TDR Events)</h2>
+            <p>A TDR (Timeout Detection and Recovery) event is what Windows calls a "Display driver stopped responding and has recovered" — the classic cause of a momentary black screen or freeze during GPU-heavy work. WatchVegas2 monitors the Windows System Event Log for Event ID 4101 every 10 seconds.</p>
+            <p>When detected:</p>
+            <ul>
+                <li>A red bold warning appears in the module log</li>
+                <li>A Critical entry is added to Session Warnings</li>
+                <li>The tray icon turns red with a balloon notification</li>
+                <li>The event is written to the daily log file</li>
+            </ul>
+            <div class="callout">
+                TDR events often precede Vegas crashes by a few seconds. Correlating a TDR entry with the preceding VRAM and GPU load readings can explain why the driver reset occurred.
+            </div>
+        </div>
+
+        <!-- PLUGIN MONITORING -->
+        <div class="section" id="plugins">
+            <h2>Plugin & Module Monitoring</h2>
+            <p>When VEGAS starts, WatchVegas2 scans all loaded modules and logs them in real time as they appear. Known plugin vendors are highlighted in color.</p>
+
+            <h3>Watched Plugins</h3>
+            <p>In <strong>Advanced Settings</strong>, you can build a personal watch list of plugin names to monitor. Any watched plugin that loads in Vegas is highlighted in red/bold and counted in the status bar. Configure watched plugins via <strong>Settings → Advanced Settings → Open</strong>.</p>
+
+            <h3>Watch list operation</h3>
+            <ul>
+                <li>The left panel shows all currently loaded Vegas modules</li>
+                <li>Click any module to add it to your watch list on the right</li>
+                <li>Use the search box to filter the module list</li>
+                <li>Click <strong>Save/Close</strong> to persist your watch list</li>
+            </ul>
+        </div>
+
+        <!-- INTERFERENCE MONITOR -->
+        <div class="section" id="interference">
+            <h2>Interference Monitor</h2>
+            <p>Certain applications are known to interfere with GPU-heavy creative tools by injecting overlay DLLs or competing for GPU resources. WatchVegas2 watches for these while Vegas is running:</p>
+            <ul>
+                <li>Discord</li>
+                <li>OBS Studio (obs64)</li>
+                <li>RivaTuner Statistics Server (RTSS)</li>
+                <li>Steam</li>
+                <li>Xbox Game Bar</li>
+                <li>Overwolf</li>
+            </ul>
+            <p>When one appears, a red warning is logged immediately. When it closes, a "conflicts cleared" message confirms it. Toggle this feature with the <strong>Conflict Filter</strong> button — Navy text means ON, Red text means OFF.</p>
+        </div>
+
+        <!-- CODEC DETECTION -->
+        <div class="section" id="codec">
+            <h2>Codec Detection</h2>
+            <p>When a new codec or plugin DLL loads into Vegas <em>after</em> the initial startup scan — typically triggered by opening a media file — WatchVegas2 flags it in Session Warnings. This creates a "what loaded just before the crash" trail that is often the most useful diagnostic when a specific media file causes instability.</p>
+            <p>Flagged DLL patterns include: <code>CODEC</code>, <code>DECODER</code>, <code>ENCODER</code>, <code>MFT</code>, <code>LAV</code>, <code>PRORES</code>, <code>HEVC</code>, <code>H264</code>, <code>H265</code>, <code>OFX</code>.</p>
+        </div>
+
+        <!-- CPU WARNING -->
+        <div class="section" id="cpu-warning">
+            <h2>CPU Temperature Warning</h2>
+            <p>WatchVegas2 offers two CPU temperature warning modes, configurable in Settings:</p>
+
+            <h3>Static threshold</h3>
+            <p>Fires when the CPU temperature exceeds a fixed value you set (default 85°C). The status bar turns red and a warning appears in the log.</p>
+
+            <h3>Adaptive warning (recommended)</h3>
+            <p>Builds a rolling 30-sample baseline of your CPU's normal temperature under current conditions. Fires only when the temperature exceeds that baseline by 15°C — meaning it adapts to whether you're doing a light edit or a heavy render, rather than using one fixed number for all situations. Enable via <strong>Settings → Use Adaptive CPU Warning</strong>.</p>
+            <div class="callout">
+                During the first 30 seconds after launch, the adaptive mode falls back to the static threshold while it builds its baseline.
+            </div>
+        </div>
+
+        <!-- GPU WARNING -->
+        <div class="section" id="gpu-warning">
+            <h2>GPU Usage Warning</h2>
+            <p>Fires when GPU load exceeds your configured threshold (default 75%). Configure in <strong>Settings → GPU Warning Threshold %</strong>. The status bar turns purple and a warning is logged.</p>
+        </div>
+
+        <!-- VRAM WARNING -->
+        <div class="section" id="vram-warning">
+            <h2>VRAM Usage Warning</h2>
+            <p>VRAM exhaustion is one of the most common causes of GPU-related crashes in video editing. WatchVegas2 monitors VRAM % and warns when it exceeds your threshold (default 90%). Configure in <strong>Settings → VRAM Warning Threshold %</strong>.</p>
+            <p>When triggered: status bar turns dark red, a warning appears in the log, a Session Warning is recorded, and an auto screenshot is taken if enabled.</p>
+        </div>
+
+        <!-- RAM WARNING -->
+        <div class="section" id="ram-warning">
+            <h2>RAM Pressure Warning</h2>
+            <p>Available system RAM is shown in the status bar in GB (more actionable than a percentage). Automatic warnings fire at:</p>
+            <ul>
+                <li><strong>Below 4GB free</strong> — Caution (logged to Session Warnings)</li>
+                <li><strong>Below 2GB free</strong> — Critical (logged to Session Warnings)</li>
+            </ul>
+            <p>Heavy Vegas projects with many tracks, effects, and cached previews are the most common cause of RAM exhaustion.</p>
+        </div>
+
+        <!-- TRAY ICON -->
+        <div class="section" id="tray">
+            <h2>System Tray Icon</h2>
+            <p>WatchVegas2 places a small dot in the system tray while running:</p>
+            <ul>
+                <li><span class="color-swatch" style="background:#32cd32"></span><strong>Green</strong> — Watching normally, no events</li>
+                <li><span class="color-swatch" style="background:#e94560"></span><strong>Red</strong> — A crash, hang-close, or TDR event was just detected</li>
+            </ul>
+            <p>Hover over the tray icon to see a live tooltip showing current CPU temperature, GPU load, and VRAM usage. The icon reverts to green automatically after 10 seconds.</p>
+            <p>A balloon notification pops from the tray on confirmed crashes, hang-closes, and GPU driver resets — so you're alerted even if the WatchVegas2 window is minimized.</p>
+        </div>
+
+        <!-- SESSION WARNINGS -->
+        <div class="section" id="session">
+            <h2>Session Warnings</h2>
+            <p>Access via <strong>Tools → Session Warnings</strong>. This shows a color-coded list of every warning-level event that occurred during the current session — not routine module loads, just the things that actually matter.</p>
+            <table>
+                <tr><th>Color</th><th>Severity</th><th>Examples</th></tr>
+                <tr><td><span style="color:#555">Grey</span></td><td>Info</td><td>Vegas recovered from a hang</td></tr>
+                <tr><td><span style="color:#b8860b">Golden Yellow</span></td><td>Caution</td><td>CPU/GPU/VRAM threshold crossed, interference app detected</td></tr>
+                <tr><td><span style="color:#e67e22">Orange</span></td><td>Severe</td><td>Vegas became unresponsive (hang in progress)</td></tr>
+                <tr><td><span style="color:#e94560">Red</span></td><td>Critical</td><td>Confirmed crash, force-close after hang, GPU TDR event</td></tr>
+            </table>
+            <p>Click <strong>Copy to Clipboard</strong> to copy the full list — useful for pasting into a forum post or support email to a plugin vendor.</p>
+            <div class="callout">
+                Session Warnings are not saved automatically. Copy to clipboard before closing WatchVegas2 if you want to keep a record of a session.
+            </div>
+        </div>
+
+        <!-- SETTINGS -->
+        <div class="section" id="settings">
+            <h2>Settings</h2>
+            <p>Open via <strong>File → Settings</strong>. Click <strong>Apply to All</strong> to save changes.</p>
+            <table>
+                <tr><th>Setting</th><th>Description</th></tr>
+                <tr><td>Data Refresh Rate</td><td>How often (in seconds) the hardware sensors update. Default: 1 second.</td></tr>
+                <tr><td>Enable Thermal Throttling Warning</td><td>Enables the static CPU temperature alert.</td></tr>
+                <tr><td>Always on Top</td><td>Keeps WatchVegas2 above other windows.</td></tr>
+                <tr><td>Auto Screenshot</td><td>Automatically captures a screenshot when a warning fires.</td></tr>
+                <tr><td>WatchVegas visible in Auto Screenshot</td><td>When unticked, WatchVegas2 hides itself during auto captures so it doesn't appear in the image.</td></tr>
+                <tr><td>Use Adaptive CPU Warning</td><td>Enables rolling baseline temperature monitoring instead of a fixed threshold. Greys out the static threshold setting.</td></tr>
+                <tr><td>GPU Warning Threshold %</td><td>GPU load % at which the chart border and status bar warn.</td></tr>
+                <tr><td>CPU Warning Threshold %</td><td>CPU load % at which the chart border tints.</td></tr>
+                <tr><td>VRAM Warning Threshold %</td><td>VRAM % at which the status bar turns dark red and a warning fires.</td></tr>
+                <tr><td>Form Opacity</td><td>Controls the transparency of the WatchVegas2 window.</td></tr>
+                <tr><td>Set CPU Temperature Warning</td><td>Fixed threshold in °C for the static temperature alert.</td></tr>
+                <tr><td>Maximum Number of Images in Folder</td><td>Screenshot folder limit before older images are purged.</td></tr>
+            </table>
+        </div>
+
+        <!-- ADVANCED SETTINGS -->
+        <div class="section" id="advanced">
+            <h2>Advanced Settings</h2>
+            <p>Open via <strong>Settings → Advanced Settings → Open</strong>.</p>
+            <table>
+                <tr><th>Setting</th><th>Description</th></tr>
+                <tr><td>Enable CPU Warning</td><td>Master switch for CPU temperature alerting.</td></tr>
+                <tr><td>Enable GPU Warning</td><td>Master switch for GPU usage alerting.</td></tr>
+                <tr><td>Log Plugins</td><td>Writes watched plugin load events to the log file.</td></tr>
+                <tr><td>Highlight Plugins</td><td>Color-highlights known plugin vendors in the module log.</td></tr>
+                <tr><td>Trigger Screenshot</td><td>Automatically takes a screenshot when a watched plugin loads.</td></tr>
+                <tr><td>Enable Auto Screenshot</td><td>Master switch for automatic screenshot capture.</td></tr>
+            </table>
+
+            <h3>Plugin Watch List</h3>
+            <p>The left panel shows all DLLs currently loaded in Vegas. Click any entry to add it to your personal watch list on the right. Watched plugins are highlighted in the main log and counted in the status bar. Click <strong>Save/Close</strong> to save your list.</p>
+        </div>
+
+        <!-- LOG FILES -->
+        <div class="section" id="logs">
+            <h2>Log Files</h2>
+            <p>All logs are saved in the <code>Logs</code> folder inside the WatchVegas2 installation directory. Open via <strong>Edit → Open Log Folder</strong>.</p>
+            <table>
+                <tr><th>File</th><th>Contents</th></tr>
+                <tr><td><code>Wvegaslog_YYYYMMDD.txt</code></td><td>Daily combined log — all events, warnings, module loads, heartbeats</td></tr>
+                <tr><td><code>LastCrashSnapshot.txt</code></td><td>Hardware state at the time of the most recent confirmed crash</td></tr>
+                <tr><td><code>CrashHistory.txt</code></td><td>Permanent running record of every confirmed crash across all sessions</td></tr>
+            </table>
+            <p>View crash history via <strong>Tools → Crash History</strong>. View the last crash snapshot via <strong>Tools → Crash Analysis</strong>.</p>
+        </div>
+
+        <!-- SCREENSHOTS -->
+        <div class="section" id="screenshots">
+            <h2>Screenshots</h2>
+            <p>Auto screenshots are saved to the <code>Screenshots</code> folder inside the WatchVegas2 installation directory. Open via <strong>Edit → Open Screenshot Folder</strong>.</p>
+            <p>Screenshots are triggered automatically when:</p>
+            <ul>
+                <li>VRAM exceeds the warning threshold</li>
+                <li>CPU temperature exceeds its threshold</li>
+                <li>A watched plugin loads (if enabled in Advanced Settings)</li>
+                <li>Vegas crashes (captures the "stopped working" dialog if still visible)</li>
+            </ul>
+            <p>You can also capture manually via the <strong>Capture Screen</strong> button.</p>
+        </div>
+
+        <!-- CRASH HISTORY -->
+        <div class="section" id="crashhistory">
+            <h2>Crash History</h2>
+            <p>Every confirmed Vegas crash is appended to <code>Logs\CrashHistory.txt</code> — it is never overwritten. Each entry includes the crash time, culprit module, hardware state, and whether Vegas was unresponsive before the crash.</p>
+            <p>Over time this builds a permanent diagnostic record. Patterns like "always crashes with the same DLL" or "always crashes after 2+ hours" become visible across multiple sessions.</p>
+            <p>View via <strong>Tools → Crash History</strong>.</p>
+        </div>
+
+        <!-- WINDOWS UPDATE -->
+        <div class="section" id="windows-update">
+            <h2>Windows Update Pause</h2>
+            <p>WatchVegas2 automatically pauses the Windows Update service (<code>wuauserv</code>) when Vegas is detected running, and resumes it when Vegas closes. This prevents Windows Update activity from competing for system resources or triggering a driver update mid-session.</p>
+            <div class="callout">
+                This requires WatchVegas2 to be running as Administrator. A log entry confirms when Windows Update is paused and resumed.
+            </div>
+            <div class="callout danger">
+                Windows Update will resume automatically when Vegas closes. If you close WatchVegas2 before closing Vegas, Windows Update will resume at that point.
+            </div>
+        </div>
+
     </div>
+</div>
 
 </body>
 </html>
